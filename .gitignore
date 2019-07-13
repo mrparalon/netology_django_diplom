@@ -12,3 +12,4 @@ env/
 settings_local.py
 
 .vscode/
+phone_store/db.sqlite3
