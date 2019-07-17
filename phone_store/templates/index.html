@@ -7,7 +7,10 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-4">Добро пожаловать на сайт просто магазина</h1>
-      <p>Лучшие мобилы только у нас:</p>
+      <h2>Статьи</h2>
+      {% for article in articles %}
+      <p><a href="articles/{{ article.slug }}/">{{ article.title }}</a></p>
+      {% endfor %}
     </div>
   </div>
 

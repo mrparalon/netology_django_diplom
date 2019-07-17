@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from phones.views import show_index
+from shop.views import show_index
+from articles.views import show_article
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', show_index, name='index'),
+    path('articles/<slug:slug>/', show_article)
 ]

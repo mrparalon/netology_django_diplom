@@ -13,3 +13,4 @@ settings_local.py
 
 .vscode/
 phone_store/db.sqlite3
+phone_store/db.sqlite3
