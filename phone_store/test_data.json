@@ -283,24 +283,6 @@
     }
 },
 {
-    "model": "customer.customer",
-    "pk": 1,
-    "fields": {
-        "user": 4,
-        "cart": [
-            1
-        ]
-    }
-},
-{
-    "model": "customer.customer",
-    "pk": 2,
-    "fields": {
-        "user": 5,
-        "cart": []
-    }
-},
-{
     "model": "admin.logentry",
     "pk": 1,
     "fields": {
