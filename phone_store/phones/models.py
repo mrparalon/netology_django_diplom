@@ -10,7 +10,6 @@ class Phone(models.Model):
     screen_size = models.DecimalField(max_digits=3, decimal_places=1)
     screen_width_px = models.IntegerField()
     screen_height_px = models.IntegerField()
-    description = models.TextField()
 
     def __str__(self):
         return f'{self.base_info.brand} {self.base_info.name} {self.memory} GB'

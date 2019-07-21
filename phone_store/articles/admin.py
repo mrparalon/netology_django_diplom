@@ -5,7 +5,7 @@ from articles.models import Article
 
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ['title', 'author']
-    filter_horizontal = ['phones']
+    filter_horizontal = ['products']
 
     # def get_phones(self, obj):
     #     phones = obj.phones.all()

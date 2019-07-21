@@ -17,7 +17,8 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=9, decimal_places=2)
     brand = models.CharField(max_length=128)
     picture = models.ImageField()
-    reviews = models.ManyToManyField('Review', related_name='phones', blank=True)
+    reviews = models.ManyToManyField('Review', related_name='product', blank=True)
+    description = models.TextField()
 
     def __str__(self):
         return self.name
@@ -30,8 +31,3 @@ class Review(models.Model):
 
     def __str__(self):
         return f'{self.author} {self.score} звезд, {self.text[:10]} ...'
-
-
-class Customer(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    cart = models.ManyToManyField('Product', related_name='customers')

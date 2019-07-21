@@ -8,11 +8,14 @@
     <h1>{{ article.title }}</h1>
     <p>Автор: {{ article.author.first_name }} {{ article.author.last_name }}</p>
     <p>Опубликовано {{ article.pub_date }}</p>
-    {% for phone in phones %}
-    {% comment %} TODO add phone card {% endcomment %}
-    <p>{{ phone.base_info.name }}</p>
-    {% endfor %}
     {{ article.text|linebreaks }}
+    <div class="container mb-5">
+        <div class="row">
+        {% for product in products %}
+            {% include 'phone_snippet.html' %}
+        {% endfor %}
+        </div>
+    </div>
 </div>
 </main>
 {% endblock content %}
