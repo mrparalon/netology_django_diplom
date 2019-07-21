@@ -1,1 +1,849 @@
-[{"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "articles", "model": "article"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "phones", "model": "phone"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "shop", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "shop", "model": "customer"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "shop", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "shop", "model": "review"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "shop", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "customer", "model": "customer"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "customer", "model": "order"}}, {"model": "sessions.session", "pk": "polo7g1esrjh1mm1z0zspq4j55zgrm4p", "fields": {"session_data": "YTdkOTIwN2Y3NTQwMWIyZGFlYTI3ZmQ3YzY4ZGVkYTM1YzAyZjAxYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxZGFiYjEyOTliYWQwZTMyMTk1MDM4YzUzY2Q1MGI0YzQxY2ZiN2I4In0=", "expire_date": "2019-08-03T15:06:36.120Z"}}, {"model": "phones.phone", "pk": 1, "fields": {"base_info": 1, "memory": 32, "ddr": 2, "screen_size": "4.9", "screen_width_px": 1334, "screen_height_px": 750}}, {"model": "phones.phone", "pk": 2, "fields": {"base_info": 2, "memory": 32, "ddr": 2, "screen_size": "5.2", "screen_width_px": 1080, "screen_height_px": 1920}}, {"model": "phones.phone", "pk": 3, "fields": {"base_info": 3, "memory": 64, "ddr": 4, "screen_size": "5.0", "screen_width_px": 1080, "screen_height_px": 1920}}, {"model": "phones.phone", "pk": 4, "fields": {"base_info": 4, "memory": 64, "ddr": 4, "screen_size": "6.2", "screen_width_px": 1440, "screen_height_px": 2960}}, {"model": "shop.category", "pk": 1, "fields": {"name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b", "slug": "smartphones"}}, {"model": "shop.category", "pk": 2, "fields": {"name": "\u041e\u0434\u0435\u0436\u0434\u0430", "slug": "clothes"}}, {"model": "shop.product", "pk": 1, "fields": {"name": "Iphone 7", "price": "35000.00", "brand": "Apple", "picture": "iphone7_o45R9kT.webp", "description": "\u042d\u0422\u041e 7\r\n\r\n\u0412 iPhone 7 \u0432\u0441\u0435 \u0432\u0430\u0436\u043d\u0435\u0439\u0448\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b iPhone \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u044b. \u042d\u0442\u043e \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0438\u0430\u043b\u044c\u043d\u043e \u043d\u043e\u0432\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u0430\u043c\u0435\u0440 \u0434\u043b\u044f \u0444\u043e\u0442\u043e \u0438 \u0432\u0438\u0434\u0435\u043e\u0441\u044a\u0435\u043c\u043a\u0438. \u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043c\u043e\u0449\u043d\u044b\u0439 \u0438 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u043d\u044b\u0439 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440. \u0421\u0442\u0435\u0440\u0435\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438 \u0441 \u0431\u043e\u0433\u0430\u0442\u044b\u043c \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435\u043c. \u0421\u0430\u043c\u044b\u0439 \u044f\u0440\u043a\u0438\u0439 \u0438 \u0440\u0430\u0437\u043d\u043e\u0446\u0432\u0435\u0442\u043d\u044b\u0439 \u0438\u0437 \u0432\u0441\u0435\u0445 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u0432 iPhone. \u0417\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 \u0431\u0440\u044b\u0437\u0433 \u0438 \u0432\u043e\u0434\u044b. \u0418 \u0435\u0433\u043e \u0432\u043d\u0435\u0448\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u0432\u043f\u0435\u0447\u0430\u0442\u043b\u044f\u044e\u0442 \u043d\u0435 \u043c\u0435\u043d\u0435\u0435, \u0447\u0435\u043c \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438. \u0412\u0441\u0435 \u044d\u0442\u043e iPhone 7.\r\n\r\n\u0414\u0412\u0410 \u0420\u0410\u0417\u041c\u0415\u0420\u0410. \u041f\u042f\u0422\u042c \u0426\u0412\u0415\u0422\u041e\u0412\r\n\r\niPhone 7 \u0438 iPhone 7 Plus \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u044b \u0432 \u0434\u0432\u0443\u0445 \u043d\u043e\u0432\u044b\u0445 \u0446\u0432\u0435\u0442\u043e\u0432\u044b\u0445 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430\u0445: \u0431\u043b\u0430\u0433\u043e\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0430\u0442\u043e\u0432\u044b\u0439 \u0447\u0435\u0440\u043d\u044b\u0439 \u0438 \u0440\u043e\u0441\u043a\u043e\u0448\u043d\u044b\u0439 \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0439 \u0433\u043b\u044f\u043d\u0446\u0435\u0432\u044b\u0439 \"\u0447\u0435\u0440\u043d\u044b\u0439 \u043e\u043d\u0438\u043a\u0441\". \u041e\u0431\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u2014 4,7 \u0438 5,5 \u0434\u044e\u0439\u043c\u0430 \u2014 \u0441\u0434\u0435\u043b\u0430\u043d\u044b \u0438\u0437 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e \u043f\u0440\u043e\u0447\u043d\u043e\u0433\u043e \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u044f \u0441\u0435\u0440\u0438\u0438 7000 \u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0442\u0430\u043a\u0436\u0435 \u0432 \u0444\u0438\u0440\u043c\u0435\u043d\u043d\u044b\u0445 \u0446\u0432\u0435\u0442\u0430\u0445 \"\u0440\u043e\u0437\u043e\u0432\u043e\u0435 \u0437\u043e\u043b\u043e\u0442\u043e\", \u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439 \u0438 \u0437\u043e\u043b\u043e\u0442\u043e\u0439.", "category": [1], "reviews": []}}, {"model": "shop.product", "pk": 2, "fields": {"name": "Nexus 5x", "price": "30000.00", "brand": "LG", "picture": "nexus5x.webp", "description": "\u0422\u041b\u0418\u0427\u041d\u042b\u0415 \u0421\u041d\u0418\u041c\u041a\u0418 \u0414\u0410\u0416\u0415 \u041f\u0420\u0418 \u041f\u041b\u041e\u0425\u041e\u041c \u041e\u0421\u0412\u0415\u0429\u0415\u041d\u0418\u0418\r\n\r\n\u042d\u0442\u043e \u043b\u0443\u0447\u0448\u0430\u044f \u043f\u0430\u043d\u043e\u0440\u0430\u043c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430 \u0438\u0437 \u0432\u0441\u0435\u0445, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043a\u043e\u0433\u0434\u0430-\u043b\u0438\u0431\u043e \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u043b\u0438\u0441\u044c \u043d\u0430 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 Nexus. \u0415\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0440\u0430\u0441\u043a\u0440\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0438 \u043f\u043b\u043e\u0445\u043e\u043c \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0438. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u043d\u044b\u043c \u043f\u0438\u043a\u0441\u0435\u043b\u044f\u043c \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u043c 1,55 \u043c\u043a\u043c \u043a\u0430\u043c\u0435\u0440\u0430 \u0437\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0431\u043e\u043b\u044c\u0448\u0435 \u0441\u0432\u0435\u0442\u0430 \u0438 \u0434\u0435\u043b\u0430\u0435\u0442 \u044f\u0440\u043a\u0438\u0435 \u0447\u0435\u0442\u043a\u0438\u0435 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0434\u0430\u0436\u0435 \u043f\u0440\u0438 \u043d\u043e\u0447\u043d\u043e\u0439 \u0441\u044a\u0435\u043c\u043a\u0435. \u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \"Google \u041a\u0430\u043c\u0435\u0440\u0430\" \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u043e \u0437\u0430\u043f\u0435\u0447\u0430\u0442\u043b\u0435\u0442\u044c \u0432\u0430\u0436\u043d\u044b\u0435 \u0438 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0435 \u043c\u043e\u043c\u0435\u043d\u0442\u044b, \u0430 Google \u0424\u043e\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0432\u0441\u0435 \u0441\u043d\u0438\u043c\u043a\u0438 \u043f\u043e\u0434 \u0440\u0443\u043a\u043e\u0439.\r\n\r\n\u0412\u0421\u0415 \u0424\u041e\u0422\u041e \u041f\u041e\u0414 \u0420\u0423\u041a\u041e\u0419\r\n\r\nGoogle Photos \u2013 \u044d\u0442\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e \u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043c \u0444\u043e\u0442\u043e \u0438 \u0432\u0438\u0434\u0435\u043e \u0438 \u0438\u043c\u0435\u0442\u044c \u043a \u043d\u0438\u043c \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u043f\u043e\u0438\u0441\u043a\u0430 \u043f\u043e \u043b\u0438\u0446\u0430\u043c, \u043c\u0435\u0441\u0442\u0430\u043c \u0438 \u0434\u0440\u0443\u0433\u0438\u043c \u0443\u0434\u043e\u0431\u043d\u044b\u043c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u043c, \u0432\u044b \u0431\u044b\u0441\u0442\u0440\u043e \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0435 \u043d\u0443\u0436\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0438 \u043b\u0435\u0433\u043a\u043e \u0434\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u0438\u043c\u0438.", "category": [1], "reviews": []}}, {"model": "shop.product", "pk": 3, "fields": {"name": "Pixel 2", "price": "31000.00", "brand": "Google", "picture": "pixel2.webp", "description": "Google Pixel 2 \u2013 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0430\u043f\u043f\u0430\u0440\u0430\u0442 \u0441 \u0442\u043e\u043f\u043e\u0432\u044b\u043c\u0438 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0430\u043c\u0438, \u043d\u0430 \u044d\u0442\u0430\u043b\u043e\u043d\u043d\u043e\u043c Android \u0432 \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u0435\u0432\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u043e\u0439 \u043f\u043e \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0443 IP67 . \u041c\u043e\u0449\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Qualcomm Snapdragon 835, \u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439 \u0438 \u0441\u043e\u0447\u043d\u044b\u0439 5-\u0438 \u0434\u044e\u0439\u043c\u043e\u0432\u044b\u0439 \u044d\u043a\u0440\u0430\u043d AMOLED \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c 1080 x 1920 \u0442\u043e\u0447\u0435\u043a, \u0431\u0430\u0442\u0430\u0440\u0435\u044f \u043d\u0430 2700 \u043c\u0410\u0447 \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438 \u043e\u0442\u0432\u0435\u0447\u0430\u044e\u0442 \u0437\u0430 \u0445\u043e\u0440\u043e\u0448\u0443\u044e \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430. \u041a\u0430\u043c\u0435\u0440\u0430 \u043d\u0430 12.3\u041c\u041f \u0441 \u043b\u0430\u0437\u0435\u0440\u043d\u044b\u043c \u0438 \u0444\u0430\u0437\u043e\u0432\u044b\u043c \u0430\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441\u043e\u043c \u043f\u043e \u043f\u0440\u0430\u0432\u0443 \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u043b\u0443\u0447\u0448\u0438\u0445 \u043d\u0430 \u0440\u044b\u043d\u043a\u0435.", "category": [1], "reviews": []}}, {"model": "shop.product", "pk": 4, "fields": {"name": "Galaxy 8", "price": "45000.00", "brand": "Samsung", "picture": "samsungs8.webp", "description": "\u0411\u0435\u0437\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d\r\n\r\n\u041c\u044b \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0438\u043b\u0438 \u043a\u0430\u0436\u0434\u0443\u044e \u0434\u0435\u0442\u0430\u043b\u044c \u0440\u0430\u0434\u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u044d\u043a\u0440\u0430\u043d\u0430, \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043e\u0442 \u0440\u0430\u043c\u043e\u043a, \u0447\u0442\u043e\u0431\u044b \u0412\u044b \u0441\u043c\u043e\u0433\u043b\u0438 \u043d\u0430\u0441\u043b\u0430\u0434\u0438\u0442\u044c\u0441\u044f \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u043c \u043f\u043e\u043b\u043d\u043e\u0433\u043e \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u044f. \u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043f\u0440\u043e\u0441\u0442\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u044b \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u043a\u0440\u0430\u0441\u043e\u0447\u043d\u044b\u0445 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0439, \u0448\u0438\u0440\u043e\u043a\u043e\u0444\u043e\u0440\u043c\u0430\u0442\u043d\u044b\u0445 \u0432\u0438\u0434\u0435\u043e \u0438 \u0437\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u044e\u0449\u0438\u0445 \u0438\u0433\u0440.", "category": [1], "reviews": []}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can add article", "content_type": 7, "codename": "add_article"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can change article", "content_type": 7, "codename": "change_article"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can delete article", "content_type": 7, "codename": "delete_article"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can add phone", "content_type": 8, "codename": "add_phone"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can change phone", "content_type": 8, "codename": "change_phone"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can delete phone", "content_type": 8, "codename": "delete_phone"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add category", "content_type": 9, "codename": "add_category"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change category", "content_type": 9, "codename": "change_category"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete category", "content_type": 9, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can add customer", "content_type": 10, "codename": "add_customer"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can change customer", "content_type": 10, "codename": "change_customer"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can delete customer", "content_type": 10, "codename": "delete_customer"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can add product", "content_type": 11, "codename": "add_product"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can change product", "content_type": 11, "codename": "change_product"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can delete product", "content_type": 11, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can add review", "content_type": 12, "codename": "add_review"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can change review", "content_type": 12, "codename": "change_review"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can delete review", "content_type": 12, "codename": "delete_review"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add order", "content_type": 13, "codename": "add_order"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change order", "content_type": 13, "codename": "change_order"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete order", "content_type": 13, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can add customer", "content_type": 14, "codename": "add_customer"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can change customer", "content_type": 14, "codename": "change_customer"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can delete customer", "content_type": 14, "codename": "delete_customer"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can add order", "content_type": 15, "codename": "add_order"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can change order", "content_type": 15, "codename": "change_order"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can delete order", "content_type": 15, "codename": "delete_order"}}, {"model": "auth.group", "pk": 1, "fields": {"name": "Authors", "permissions": [19, 20]}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$100000$524jVyCMCJqc$CZDvsK0/JxDcmgvZJ66xoARamp8yXUnowNSvuMJDuUQ=", "last_login": "2019-07-20T15:06:36.103Z", "is_superuser": true, "username": "mrparalon", "first_name": "", "last_name": "", "email": "a@a.com", "is_staff": true, "is_active": true, "date_joined": "2019-07-14T20:22:34.222Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$100000$Y7NnqE991tAp$rHcMzgdPuPVIFvWlm24aFjHKapsoe/WapWFArVIiuSE=", "last_login": null, "is_superuser": false, "username": "author_1", "first_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439", "last_name": "\u0428\u0435\u0440\u0447\u0435\u043d\u043a\u043e\u0432", "email": "", "is_staff": false, "is_active": true, "date_joined": "2019-07-16T16:55:47Z", "groups": [1], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$100000$TcnT885tO4zk$r7G7qCL6B6Kxhjip/wtbfwzdTH28XAsb+5cEQFJvfRw=", "last_login": null, "is_superuser": false, "username": "author_2", "first_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440", "last_name": "\u0428\u0435\u0432\u0447\u0435\u043d\u043a\u043e", "email": "", "is_staff": false, "is_active": true, "date_joined": "2019-07-17T17:49:46Z", "groups": [1], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$100000$c7gcxIbAviFJ$AJyb0rpURNd5pUES4fHckTg22lRsEZUG3JLHTCJXts8=", "last_login": null, "is_superuser": false, "username": "customer_1", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2019-07-20T15:30:09.930Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$100000$Vfi6Mn0w1jsB$iFr3TEwBYS4ACi8iTXZGcZqJ5GSiaj25VjCQuQxxNRc=", "last_login": null, "is_superuser": false, "username": "customer_2", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2019-07-20T15:32:15.396Z", "groups": [], "user_permissions": []}}, {"model": "articles.article", "pk": 1, "fields": {"title": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone", "text": "\u041a\u0430\u043a\u0438\u043c\u0438 \u0431\u044b \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u043c\u0438 \u043d\u0438 \u0431\u044b\u043b\u0438 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043e\u0442 Apple, \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u043d\u0430 Android \u0432 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0438 \u0441 \u043d\u0438\u043c\u0438 \u0438\u043c\u0435\u044e\u0442 \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u0434\u0435\u0432\u044f\u0442\u044c \u0432\u0430\u0436\u043d\u044b\u0445 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432.\r\n1. \u0411\u043e\u043b\u0435\u0435 \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0432\u044b\u0431\u043e\u0440 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432\r\nandroid-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b: \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0432\u044b\u0431\u043e\u0440\r\n\r\n\u0412 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0440\u043e\u0437\u043d\u0438\u0446\u0435 \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u043b\u0438\u0448\u044c \u043e\u043a\u043e\u043b\u043e \u0434\u0435\u0441\u044f\u0442\u043a\u0430 \u043c\u043e\u0434\u0435\u043b\u0435\u0439 iPhone, \u0434\u0430 \u0438 \u0442\u0435 \u0432\u043d\u0435\u0448\u043d\u0435 \u043c\u0435\u0436\u0434\u0443 \u0441\u043e\u0431\u043e\u0439 \u0434\u043e\u0432\u043e\u043b\u044c\u043d\u043e \u0441\u0438\u043b\u044c\u043d\u043e \u043f\u043e\u0445\u043e\u0436\u0438. \u041c\u043d\u043e\u0433\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432 \u043d\u0430 Android \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043f\u043e\u043a\u0443\u043f\u0430\u0442\u0435\u043b\u044e \u043a\u0443\u0434\u0430 \u0431\u043e\u043b\u0435\u0435 \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0432\u044b\u0431\u043e\u0440 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432 \u0441\u0430\u043c\u043e\u0433\u043e \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0437\u0430 \u043b\u044e\u0431\u044b\u0435 \u0434\u0435\u043d\u044c\u0433\u0438. \u0416\u0435\u043b\u0430\u044e\u0449\u0438\u0435 \u043c\u043e\u0433\u0443\u0442 \u043d\u0430\u0439\u0442\u0438 \u043a\u0430\u043a \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0435 \u0438 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u0438\u0435 \u043c\u043e\u0434\u0435\u043b\u0438, \u0442\u0430\u043a \u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u0441\u043a\u0438\u0435 \u0444\u043b\u0430\u0433\u043c\u0430\u043d\u044b.\r\n2. \u041d\u0430\u043b\u0438\u0447\u0438\u0435 \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\r\n\r\n\u0421\u043a\u0443\u0434\u043d\u043e\u0435 \u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432 Apple \u2014 \u044d\u0442\u043e \u043f\u043e\u043b\u0431\u0435\u0434\u044b. \u041d\u0435 \u043c\u0435\u043d\u0435\u0435 \u0432\u0430\u0436\u0435\u043d \u0444\u0430\u043a\u0442, \u0447\u0442\u043e \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u044b\u0445 iPhone \u043f\u0440\u043e\u0441\u0442\u043e \u043d\u0435\u0442. \u0421\u0430\u043c\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0439 \u0438\u0437 \u043d\u0438\u0445 \u0432 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0440\u043e\u0437\u043d\u0438\u0446\u0435 \u0441\u0435\u0439\u0447\u0430\u0441 \u0441\u0442\u043e\u0438\u0442 19 490 \u0440\u0443\u0431\u043b\u0435\u0439, \u044d\u0442\u043e iPhone SE. \u0414\u043b\u044f \u043c\u043d\u043e\u0433\u0438\u0445 \u0442\u0430\u043a\u0430\u044f \u0441\u0443\u043c\u043c\u0430 \u0447\u0440\u0435\u0437\u043c\u0435\u0440\u043d\u043e \u0432\u044b\u0441\u043e\u043a\u0430, \u0438 \u0438\u043c\u0435\u043d\u043d\u043e \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043b\u044e\u0434\u0438 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044f\u0442 \u0438\u043b\u0438 \u043f\u043e\u043f\u0440\u043e\u0441\u0442\u0443 \u043e\u0441\u0442\u0430\u044e\u0442\u0441\u044f \u043d\u0430 Android.\r\n3. \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u043a\u0430\u0440\u0442 microSD\r\n\r\nApple \u043f\u043e\u0440\u043e\u0439 \u0445\u043e\u0442\u044c \u0438 \u0443\u0434\u0438\u0432\u043b\u044f\u0435\u0442 \u043d\u043e\u0432\u044b\u043c\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\u0438 \u0441\u0432\u043e\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432, \u043d\u043e \u0442\u0430\u043a\u043e\u0439 \u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0438 \u043d\u0443\u0436\u043d\u043e\u0439 \u043c\u043d\u043e\u0433\u0438\u043c \u043e\u043f\u0446\u0438\u0438, \u043a\u0430\u043a \u0441\u043b\u043e\u0442 \u043f\u043e\u0434 \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438, \u0432 iPhone \u0432\u0441\u0451 \u0435\u0449\u0451 \u043d\u0435\u0442. \u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u043e\u0431\u044a\u0451\u043c\u0430 \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f \u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438 \u043d\u0430\u0437\u0432\u0430\u0442\u044c \u043d\u0435\u043b\u044c\u0437\u044f, \u0442\u0430\u043a \u043a\u0430\u043a \u043c\u043e\u0434\u0435\u043b\u0438 \u0441\u043e 128 \u0438\u043b\u0438 256 \u0413\u0411 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 \u0441\u0442\u043e\u044f\u0442 \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0434\u043e\u0440\u043e\u0436\u0435 \u0431\u0430\u0437\u043e\u0432\u044b\u0445 \u0432\u0435\u0440\u0441\u0438\u0439.\r\n4. \u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u0432\u0443\u0445 \u0441\u0438\u043c-\u043a\u0430\u0440\u0442\r\n\r\n\u0410\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u043e \u0438 \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0441\u0438\u043c-\u043a\u0430\u0440\u0442, \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0434\u043e \u0441\u0438\u0445 \u043f\u043e\u0440 \u043d\u0435\u0442 \u043d\u0438 \u0432 \u043e\u0434\u043d\u043e\u043c iPhone. \u041f\u0440\u0438 \u0432\u0441\u0451\u043c \u0436\u0435\u043b\u0430\u043d\u0438\u0438 \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0441\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u0435\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u043e\u043f\u0435\u0440\u0430\u0442\u043e\u0440\u0430 \u0434\u043b\u044f \u0437\u0432\u043e\u043d\u043a\u043e\u0432, \u0430 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u2014 \u0434\u043b\u044f \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0430.\r\n5. \u041d\u0430\u043b\u0438\u0447\u0438\u0435 3,5-\u043c\u0438\u043b\u043b\u0438\u043c\u0435\u0442\u0440\u043e\u0432\u043e\u0433\u043e \u0430\u0443\u0434\u0438\u043e\u0440\u0430\u0437\u044a\u0451\u043c\u0430\r\nandroid-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b: \u0430\u0443\u0434\u0438\u043e\u0440\u0430\u0437\u044a\u0451\u043c\r\nheise.de\r\n\r\n\u041d\u0430\u0447\u0438\u043d\u0430\u044f \u0441 iPhone 7, \u0432\u0441\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043b\u0438\u0448\u0438\u043b\u0438\u0441\u044c \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u0433\u043e \u0430\u0443\u0434\u0438\u043e\u0440\u0430\u0437\u044a\u0451\u043c\u0430, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0435\u0433\u043e \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0442\u044c \u043e\u0431\u044b\u0447\u043d\u044b\u0435 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0438 \u0433\u0430\u0440\u043d\u0438\u0442\u0443\u0440\u044b. \u041e\u0442\u0447\u0430\u0441\u0442\u0438 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0443 \u0440\u0435\u0448\u0430\u0435\u0442 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u0438\u043a, \u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0435\u0433\u043e \u043d\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0443\u0434\u043e\u0431\u043d\u043e. \u0414\u0430 \u0438 \u043b\u0438\u0448\u043d\u0438\u0435 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0432 \u043a\u0430\u0440\u043c\u0430\u043d\u0435 \u0432\u0440\u044f\u0434 \u043b\u0438 \u043a\u043e\u0433\u043e-\u0442\u043e \u0440\u0430\u0434\u0443\u044e\u0442.\r\n6. \u0423\u0434\u043e\u0431\u0441\u0442\u0432\u043e \u0441\u043a\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u044f \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u0435\u0434\u0438\u0430\u0444\u0430\u0439\u043b\u043e\u0432\r\n\r\n\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 Android \u043c\u043e\u0433\u0443\u0442 \u0441\u043a\u0430\u0447\u0438\u0432\u0430\u0442\u044c \u0438 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0442\u044c \u0444\u0430\u0439\u043b\u044b \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043b\u044e\u0431\u044b\u0445 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432, \u043f\u0440\u043e\u0441\u0442\u043e \u043a\u043e\u043f\u0438\u0440\u0443\u044f \u0438\u0445 \u0432 \u043f\u0430\u043c\u044f\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430. \u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0442\u044c \u0438\u0445 \u043c\u043e\u0436\u043d\u043e \u0434\u0430\u0436\u0435 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0441 \u0444\u043b\u0435\u0448\u043a\u0438. \u041d\u0430 iOS \u0436\u0435 \u043f\u043e\u0434\u043e\u0431\u043d\u043e\u0439 \u0441\u0432\u043e\u0431\u043e\u0434\u044b \u043d\u0435\u0442. \u0427\u0442\u043e\u0431\u044b \u0441\u043a\u0438\u043d\u0443\u0442\u044c \u043d\u0430 iPhone \u0444\u0438\u043b\u044c\u043c \u0438\u043b\u0438 \u0442\u0440\u0435\u043a, \u043f\u0440\u0438\u0434\u0451\u0442\u0441\u044f \u0432\u043e\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f iTunes, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0435\u0449\u0451 \u0438 \u043a\u043e\u043d\u0432\u0435\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0437\u0430\u0439\u043c\u0451\u0442\u0441\u044f.\r\n7. \u041a\u0430\u0441\u0442\u043e\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430\r\nandroid-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b: \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\r\nmakemac.com\r\n\r\n\u041f\u043e \u0447\u0430\u0441\u0442\u0438 \u0432\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 iOS \u043d\u0438 \u0432 \u043a\u0430\u043a\u043e\u0435 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435 \u043d\u0435 \u0438\u0434\u0451\u0442 \u0441 Android. \u0421 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f\u043c\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u0430\u044f \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0430 iPhone \u043e\u0431\u0440\u0435\u0442\u0430\u0435\u0442 \u043b\u0438\u0448\u044c \u043a\u043e\u0441\u043c\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044f \u043e\u0431\u0449\u0438\u0439 \u0441\u0442\u0438\u043b\u044c. \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0434\u0430\u0436\u0435 \u0442\u0435\u043c \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f, \u043d\u0435 \u0433\u043e\u0432\u043e\u0440\u044f \u0443\u0436\u0435 \u043f\u0440\u043e \u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u044b\u0435 \u043b\u0430\u0443\u043d\u0447\u0435\u0440\u044b, \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043c\u0435\u043d\u044f\u044e\u0449\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441. \u0410 \u0432\u0435\u0434\u044c \u043f\u043e\u0440\u043e\u0439 \u0445\u043e\u0447\u0435\u0442\u0441\u044f \u0447\u0435\u0433\u043e-\u0442\u043e \u043d\u043e\u0432\u043e\u0433\u043e, \u043f\u0443\u0441\u0442\u044c \u0438 \u043d\u0430 \u0441\u0442\u0430\u0440\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435.\r\n8. \u041e\u0442\u043a\u0440\u044b\u0442\u043e\u0441\u0442\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u044b\r\n\r\n\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 Android \u0432\u0441\u0451 \u0435\u0449\u0451 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e, \u043f\u0443\u0441\u0442\u044c \u0438 \u0431\u0435\u0437 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u0432 Google. \u041a\u0430\u0436\u0434\u044b\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0432\u043f\u0440\u0430\u0432\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u0430\u043d\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0443 \u043a\u0430\u043a \u043e\u0441\u043d\u043e\u0432\u0443 \u0434\u043b\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0439 \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0438 \u0441\u0432\u043e\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432. \u041d\u0435\u0440\u0435\u0434\u043a\u043e \u0438\u043c\u0435\u043d\u043d\u043e \u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0432\u043e\u0438\u043c\u0438 \u0438\u0434\u0435\u044f\u043c\u0438 \u043f\u043e\u0434\u0442\u0430\u043b\u043a\u0438\u0432\u0430\u044e\u0442 Google \u043a \u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u044e \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0445 \u043e\u043f\u0446\u0438\u0439. iOS \u0436\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u043f\u043e\u0434 \u0437\u0430\u043c\u043a\u043e\u043c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0438 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c \u0435\u0451 \u043c\u043e\u0436\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e Apple.\r\n9. \u0414\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u043e\u0432\r\n\r\n\u0414\u043e\u0440\u043e\u0433\u043e\u0432\u0438\u0437\u043d\u0430 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u043e\u0432 \u0434\u043b\u044f iPhone \u0443\u0436\u0435 \u0441\u0442\u0430\u043b\u0430 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043e\u043c \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0430 \u0448\u0443\u0442\u043e\u043a, \u0438 \u044d\u0442\u043e \u0432\u043f\u043e\u043b\u043d\u0435 \u043f\u043e\u043d\u044f\u0442\u043d\u043e. \u041f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0435\u043d\u0438\u0435 \u0447\u0435\u0445\u043b\u0430 \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u0438\u043a\u0430 \u043c\u043e\u0436\u0435\u0442 \u043e\u0431\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u0432\u043d\u0443\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438 \u0442\u0440\u0430\u0442\u0430\u043c\u0438. \u041a \u043f\u0440\u0438\u043c\u0435\u0440\u0443, \u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0441\u0438\u043b\u0438\u043a\u043e\u043d\u043e\u0432\u044b\u0439 \u043a\u0435\u0439\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u043e\u0433\u043e iPhone X \u043e\u0431\u043e\u0439\u0434\u0451\u0442\u0441\u044f \u0432 3 290 \u0440\u0443\u0431\u043b\u0435\u0439, \u043a\u0430\u0431\u0435\u043b\u044c USB-C/Lightning \u2014 \u0432 1 990 \u0440\u0443\u0431\u043b\u0435\u0439, \u0430 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0430\u044f \u0437\u0430\u0440\u044f\u0434\u043a\u0430 \u2014 \u0432 9 190 \u0440\u0443\u0431\u043b\u0435\u0439. \u0412 \u0441\u043b\u0443\u0447\u0430\u0435 \u0441 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430\u043c\u0438 \u0432\u0441\u0451 \u0433\u043e\u0440\u0430\u0437\u0434\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0435\u0435.", "author": 2, "pub_date": "2019-07-18T19:05:30.935Z", "slug": "9-prichin-pochemu-android-smartfonyi-vsyo-eschyo-l", "products": [2, 3, 4]}}, {"model": "articles.article", "pk": 2, "fields": {"title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?", "text": "- \u041c\u043e\u0436\u043d\u043e \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e \u0432\u0441\u0435\u0433\u043e \u0437\u0430\u043a\u0430\u0447\u0430\u0442\u044c", "author": 3, "pub_date": "2019-07-18T19:02:38.760Z", "slug": "pochemu-vam-nuzhno-64-gb-na-telefone", "products": [3, 4]}}, {"model": "customer.customer", "pk": 1, "fields": {"user": 4, "cart": [1]}}, {"model": "customer.customer", "pk": 2, "fields": {"user": 5, "cart": []}}, {"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2019-07-14T20:23:20.318Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Category object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2019-07-14T20:24:02.410Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Product object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2019-07-14T20:26:09.321Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Apple Iphone 7 32 GB", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2019-07-16T16:41:16.436Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Nexus 5x", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2019-07-16T16:43:08.483Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Nexus 5x", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"brand\"]}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2019-07-16T16:43:14.738Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "LG Nexus 5x 32 GB", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2019-07-16T16:45:27.732Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Pixel 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2019-07-16T16:47:08.384Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "Google Pixel 2 64 GB", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2019-07-16T16:51:07.186Z", "user": 1, "content_type": 11, "object_id": "4", "object_repr": "Galaxy 8", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2019-07-16T16:52:51.651Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "Samsung Galaxy 8 64 GB", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2019-07-16T16:55:47.785Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "author_1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2019-07-16T16:55:56.238Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2019-07-17T17:48:47.215Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"phones\"]}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2019-07-17T17:49:46.399Z", "user": 1, "content_type": 4, "object_id": "3", "object_repr": "author_2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2019-07-17T17:49:51.106Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2019-07-17T17:52:47.334Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "clothes", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2019-07-17T17:53:30.749Z", "user": 1, "content_type": 3, "object_id": "1", "object_repr": "Authors", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2019-07-17T17:54:16.015Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "author_1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"groups\"]}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2019-07-17T17:54:30.740Z", "user": 1, "content_type": 4, "object_id": "3", "object_repr": "author_2", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"groups\"]}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2019-07-17T17:57:02.441Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2019-07-17T17:57:11.705Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "\u041e\u0434\u0435\u0436\u0434\u0430", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2019-07-17T18:05:54.764Z", "user": 1, "content_type": 11, "object_id": "4", "object_repr": "Galaxy 8", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2019-07-17T18:06:00.783Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "Samsung Galaxy 8 64 GB", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2019-07-17T18:07:01.448Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Pixel 2", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2019-07-17T18:07:11.096Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Nexus 5x", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2019-07-17T18:07:19.248Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Iphone 7", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2019-07-17T18:45:02.912Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "\u041e\u0434\u0435\u0436\u0434\u0430", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"slug\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2019-07-17T18:45:17.523Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"slug\"]}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2019-07-17T19:05:49.167Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2019-07-17T19:05:57.704Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2019-07-17T19:06:03.097Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2019-07-18T19:02:38.764Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"products\"]}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2019-07-18T19:05:20.121Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"products\", \"slug\"]}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2019-07-18T19:05:30.938Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2019-07-20T15:30:10.006Z", "user": 1, "content_type": 4, "object_id": "4", "object_repr": "customer_1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2019-07-20T15:30:24.755Z", "user": 1, "content_type": 14, "object_id": "1", "object_repr": "Customer object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2019-07-20T15:32:15.474Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "customer_2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2019-07-20T15:32:18.285Z", "user": 1, "content_type": 14, "object_id": "2", "object_repr": "Customer object (2)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2019-07-20T18:28:09.531Z", "user": 1, "content_type": 11, "object_id": "4", "object_repr": "Galaxy 8", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2019-07-20T18:29:41.120Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Pixel 2", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2019-07-20T18:31:54.026Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Nexus 5x", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2019-07-20T18:32:44.911Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Iphone 7", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"}}]
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "articles",
+        "model": "article"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "phones",
+        "model": "phone"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "shop",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "shop",
+        "model": "customer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "shop",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "shop",
+        "model": "review"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "shop",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "customer",
+        "model": "customer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "customer",
+        "model": "order"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "polo7g1esrjh1mm1z0zspq4j55zgrm4p",
+    "fields": {
+        "session_data": "YTdkOTIwN2Y3NTQwMWIyZGFlYTI3ZmQ3YzY4ZGVkYTM1YzAyZjAxYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxZGFiYjEyOTliYWQwZTMyMTk1MDM4YzUzY2Q1MGI0YzQxY2ZiN2I4In0=",
+        "expire_date": "2019-08-03T15:06:36.120Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "title": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone",
+        "text": "\u041a\u0430\u043a\u0438\u043c\u0438 \u0431\u044b \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u043c\u0438 \u043d\u0438 \u0431\u044b\u043b\u0438 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043e\u0442 Apple, \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u043d\u0430 Android \u0432 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0438 \u0441 \u043d\u0438\u043c\u0438 \u0438\u043c\u0435\u044e\u0442 \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u0434\u0435\u0432\u044f\u0442\u044c \u0432\u0430\u0436\u043d\u044b\u0445 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432.\r\n1. \u0411\u043e\u043b\u0435\u0435 \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0432\u044b\u0431\u043e\u0440 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432\r\nandroid-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b: \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0432\u044b\u0431\u043e\u0440\r\n\r\n\u0412 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0440\u043e\u0437\u043d\u0438\u0446\u0435 \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u043b\u0438\u0448\u044c \u043e\u043a\u043e\u043b\u043e \u0434\u0435\u0441\u044f\u0442\u043a\u0430 \u043c\u043e\u0434\u0435\u043b\u0435\u0439 iPhone, \u0434\u0430 \u0438 \u0442\u0435 \u0432\u043d\u0435\u0448\u043d\u0435 \u043c\u0435\u0436\u0434\u0443 \u0441\u043e\u0431\u043e\u0439 \u0434\u043e\u0432\u043e\u043b\u044c\u043d\u043e \u0441\u0438\u043b\u044c\u043d\u043e \u043f\u043e\u0445\u043e\u0436\u0438. \u041c\u043d\u043e\u0433\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432 \u043d\u0430 Android \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043f\u043e\u043a\u0443\u043f\u0430\u0442\u0435\u043b\u044e \u043a\u0443\u0434\u0430 \u0431\u043e\u043b\u0435\u0435 \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0432\u044b\u0431\u043e\u0440 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432 \u0441\u0430\u043c\u043e\u0433\u043e \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0437\u0430 \u043b\u044e\u0431\u044b\u0435 \u0434\u0435\u043d\u044c\u0433\u0438. \u0416\u0435\u043b\u0430\u044e\u0449\u0438\u0435 \u043c\u043e\u0433\u0443\u0442 \u043d\u0430\u0439\u0442\u0438 \u043a\u0430\u043a \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0435 \u0438 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u0438\u0435 \u043c\u043e\u0434\u0435\u043b\u0438, \u0442\u0430\u043a \u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u0441\u043a\u0438\u0435 \u0444\u043b\u0430\u0433\u043c\u0430\u043d\u044b.\r\n2. \u041d\u0430\u043b\u0438\u0447\u0438\u0435 \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\r\n\r\n\u0421\u043a\u0443\u0434\u043d\u043e\u0435 \u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432 Apple \u2014 \u044d\u0442\u043e \u043f\u043e\u043b\u0431\u0435\u0434\u044b. \u041d\u0435 \u043c\u0435\u043d\u0435\u0435 \u0432\u0430\u0436\u0435\u043d \u0444\u0430\u043a\u0442, \u0447\u0442\u043e \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u044b\u0445 iPhone \u043f\u0440\u043e\u0441\u0442\u043e \u043d\u0435\u0442. \u0421\u0430\u043c\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0439 \u0438\u0437 \u043d\u0438\u0445 \u0432 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0440\u043e\u0437\u043d\u0438\u0446\u0435 \u0441\u0435\u0439\u0447\u0430\u0441 \u0441\u0442\u043e\u0438\u0442 19 490 \u0440\u0443\u0431\u043b\u0435\u0439, \u044d\u0442\u043e iPhone SE. \u0414\u043b\u044f \u043c\u043d\u043e\u0433\u0438\u0445 \u0442\u0430\u043a\u0430\u044f \u0441\u0443\u043c\u043c\u0430 \u0447\u0440\u0435\u0437\u043c\u0435\u0440\u043d\u043e \u0432\u044b\u0441\u043e\u043a\u0430, \u0438 \u0438\u043c\u0435\u043d\u043d\u043e \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043b\u044e\u0434\u0438 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044f\u0442 \u0438\u043b\u0438 \u043f\u043e\u043f\u0440\u043e\u0441\u0442\u0443 \u043e\u0441\u0442\u0430\u044e\u0442\u0441\u044f \u043d\u0430 Android.\r\n3. \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u043a\u0430\u0440\u0442 microSD\r\n\r\nApple \u043f\u043e\u0440\u043e\u0439 \u0445\u043e\u0442\u044c \u0438 \u0443\u0434\u0438\u0432\u043b\u044f\u0435\u0442 \u043d\u043e\u0432\u044b\u043c\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\u0438 \u0441\u0432\u043e\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432, \u043d\u043e \u0442\u0430\u043a\u043e\u0439 \u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0438 \u043d\u0443\u0436\u043d\u043e\u0439 \u043c\u043d\u043e\u0433\u0438\u043c \u043e\u043f\u0446\u0438\u0438, \u043a\u0430\u043a \u0441\u043b\u043e\u0442 \u043f\u043e\u0434 \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438, \u0432 iPhone \u0432\u0441\u0451 \u0435\u0449\u0451 \u043d\u0435\u0442. \u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u043e\u0431\u044a\u0451\u043c\u0430 \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f \u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438 \u043d\u0430\u0437\u0432\u0430\u0442\u044c \u043d\u0435\u043b\u044c\u0437\u044f, \u0442\u0430\u043a \u043a\u0430\u043a \u043c\u043e\u0434\u0435\u043b\u0438 \u0441\u043e 128 \u0438\u043b\u0438 256 \u0413\u0411 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 \u0441\u0442\u043e\u044f\u0442 \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0434\u043e\u0440\u043e\u0436\u0435 \u0431\u0430\u0437\u043e\u0432\u044b\u0445 \u0432\u0435\u0440\u0441\u0438\u0439.\r\n4. \u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u0432\u0443\u0445 \u0441\u0438\u043c-\u043a\u0430\u0440\u0442\r\n\r\n\u0410\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u043e \u0438 \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0441\u0438\u043c-\u043a\u0430\u0440\u0442, \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0434\u043e \u0441\u0438\u0445 \u043f\u043e\u0440 \u043d\u0435\u0442 \u043d\u0438 \u0432 \u043e\u0434\u043d\u043e\u043c iPhone. \u041f\u0440\u0438 \u0432\u0441\u0451\u043c \u0436\u0435\u043b\u0430\u043d\u0438\u0438 \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0441\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u0435\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u043e\u043f\u0435\u0440\u0430\u0442\u043e\u0440\u0430 \u0434\u043b\u044f \u0437\u0432\u043e\u043d\u043a\u043e\u0432, \u0430 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u2014 \u0434\u043b\u044f \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0430.\r\n5. \u041d\u0430\u043b\u0438\u0447\u0438\u0435 3,5-\u043c\u0438\u043b\u043b\u0438\u043c\u0435\u0442\u0440\u043e\u0432\u043e\u0433\u043e \u0430\u0443\u0434\u0438\u043e\u0440\u0430\u0437\u044a\u0451\u043c\u0430\r\nandroid-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b: \u0430\u0443\u0434\u0438\u043e\u0440\u0430\u0437\u044a\u0451\u043c\r\nheise.de\r\n\r\n\u041d\u0430\u0447\u0438\u043d\u0430\u044f \u0441 iPhone 7, \u0432\u0441\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043b\u0438\u0448\u0438\u043b\u0438\u0441\u044c \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u0433\u043e \u0430\u0443\u0434\u0438\u043e\u0440\u0430\u0437\u044a\u0451\u043c\u0430, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0435\u0433\u043e \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0442\u044c \u043e\u0431\u044b\u0447\u043d\u044b\u0435 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0438 \u0433\u0430\u0440\u043d\u0438\u0442\u0443\u0440\u044b. \u041e\u0442\u0447\u0430\u0441\u0442\u0438 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0443 \u0440\u0435\u0448\u0430\u0435\u0442 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u0438\u043a, \u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0435\u0433\u043e \u043d\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0443\u0434\u043e\u0431\u043d\u043e. \u0414\u0430 \u0438 \u043b\u0438\u0448\u043d\u0438\u0435 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0432 \u043a\u0430\u0440\u043c\u0430\u043d\u0435 \u0432\u0440\u044f\u0434 \u043b\u0438 \u043a\u043e\u0433\u043e-\u0442\u043e \u0440\u0430\u0434\u0443\u044e\u0442.\r\n6. \u0423\u0434\u043e\u0431\u0441\u0442\u0432\u043e \u0441\u043a\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u044f \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u0435\u0434\u0438\u0430\u0444\u0430\u0439\u043b\u043e\u0432\r\n\r\n\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 Android \u043c\u043e\u0433\u0443\u0442 \u0441\u043a\u0430\u0447\u0438\u0432\u0430\u0442\u044c \u0438 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0442\u044c \u0444\u0430\u0439\u043b\u044b \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043b\u044e\u0431\u044b\u0445 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432, \u043f\u0440\u043e\u0441\u0442\u043e \u043a\u043e\u043f\u0438\u0440\u0443\u044f \u0438\u0445 \u0432 \u043f\u0430\u043c\u044f\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430. \u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0442\u044c \u0438\u0445 \u043c\u043e\u0436\u043d\u043e \u0434\u0430\u0436\u0435 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0441 \u0444\u043b\u0435\u0448\u043a\u0438. \u041d\u0430 iOS \u0436\u0435 \u043f\u043e\u0434\u043e\u0431\u043d\u043e\u0439 \u0441\u0432\u043e\u0431\u043e\u0434\u044b \u043d\u0435\u0442. \u0427\u0442\u043e\u0431\u044b \u0441\u043a\u0438\u043d\u0443\u0442\u044c \u043d\u0430 iPhone \u0444\u0438\u043b\u044c\u043c \u0438\u043b\u0438 \u0442\u0440\u0435\u043a, \u043f\u0440\u0438\u0434\u0451\u0442\u0441\u044f \u0432\u043e\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f iTunes, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0435\u0449\u0451 \u0438 \u043a\u043e\u043d\u0432\u0435\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0437\u0430\u0439\u043c\u0451\u0442\u0441\u044f.\r\n7. \u041a\u0430\u0441\u0442\u043e\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430\r\nandroid-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b: \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\r\nmakemac.com\r\n\r\n\u041f\u043e \u0447\u0430\u0441\u0442\u0438 \u0432\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 iOS \u043d\u0438 \u0432 \u043a\u0430\u043a\u043e\u0435 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435 \u043d\u0435 \u0438\u0434\u0451\u0442 \u0441 Android. \u0421 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f\u043c\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u0430\u044f \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0430 iPhone \u043e\u0431\u0440\u0435\u0442\u0430\u0435\u0442 \u043b\u0438\u0448\u044c \u043a\u043e\u0441\u043c\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044f \u043e\u0431\u0449\u0438\u0439 \u0441\u0442\u0438\u043b\u044c. \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0434\u0430\u0436\u0435 \u0442\u0435\u043c \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f, \u043d\u0435 \u0433\u043e\u0432\u043e\u0440\u044f \u0443\u0436\u0435 \u043f\u0440\u043e \u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u044b\u0435 \u043b\u0430\u0443\u043d\u0447\u0435\u0440\u044b, \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043c\u0435\u043d\u044f\u044e\u0449\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441. \u0410 \u0432\u0435\u0434\u044c \u043f\u043e\u0440\u043e\u0439 \u0445\u043e\u0447\u0435\u0442\u0441\u044f \u0447\u0435\u0433\u043e-\u0442\u043e \u043d\u043e\u0432\u043e\u0433\u043e, \u043f\u0443\u0441\u0442\u044c \u0438 \u043d\u0430 \u0441\u0442\u0430\u0440\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435.\r\n8. \u041e\u0442\u043a\u0440\u044b\u0442\u043e\u0441\u0442\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u044b\r\n\r\n\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 Android \u0432\u0441\u0451 \u0435\u0449\u0451 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e, \u043f\u0443\u0441\u0442\u044c \u0438 \u0431\u0435\u0437 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u0432 Google. \u041a\u0430\u0436\u0434\u044b\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0432\u043f\u0440\u0430\u0432\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u0430\u043d\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0443 \u043a\u0430\u043a \u043e\u0441\u043d\u043e\u0432\u0443 \u0434\u043b\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0439 \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0438 \u0441\u0432\u043e\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432. \u041d\u0435\u0440\u0435\u0434\u043a\u043e \u0438\u043c\u0435\u043d\u043d\u043e \u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0432\u043e\u0438\u043c\u0438 \u0438\u0434\u0435\u044f\u043c\u0438 \u043f\u043e\u0434\u0442\u0430\u043b\u043a\u0438\u0432\u0430\u044e\u0442 Google \u043a \u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u044e \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0445 \u043e\u043f\u0446\u0438\u0439. iOS \u0436\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u043f\u043e\u0434 \u0437\u0430\u043c\u043a\u043e\u043c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0438 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c \u0435\u0451 \u043c\u043e\u0436\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e Apple.\r\n9. \u0414\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u043e\u0432\r\n\r\n\u0414\u043e\u0440\u043e\u0433\u043e\u0432\u0438\u0437\u043d\u0430 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u043e\u0432 \u0434\u043b\u044f iPhone \u0443\u0436\u0435 \u0441\u0442\u0430\u043b\u0430 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043e\u043c \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0430 \u0448\u0443\u0442\u043e\u043a, \u0438 \u044d\u0442\u043e \u0432\u043f\u043e\u043b\u043d\u0435 \u043f\u043e\u043d\u044f\u0442\u043d\u043e. \u041f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0435\u043d\u0438\u0435 \u0447\u0435\u0445\u043b\u0430 \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u0438\u043a\u0430 \u043c\u043e\u0436\u0435\u0442 \u043e\u0431\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u0432\u043d\u0443\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438 \u0442\u0440\u0430\u0442\u0430\u043c\u0438. \u041a \u043f\u0440\u0438\u043c\u0435\u0440\u0443, \u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0441\u0438\u043b\u0438\u043a\u043e\u043d\u043e\u0432\u044b\u0439 \u043a\u0435\u0439\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u043e\u0433\u043e iPhone X \u043e\u0431\u043e\u0439\u0434\u0451\u0442\u0441\u044f \u0432 3 290 \u0440\u0443\u0431\u043b\u0435\u0439, \u043a\u0430\u0431\u0435\u043b\u044c USB-C/Lightning \u2014 \u0432 1 990 \u0440\u0443\u0431\u043b\u0435\u0439, \u0430 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0430\u044f \u0437\u0430\u0440\u044f\u0434\u043a\u0430 \u2014 \u0432 9 190 \u0440\u0443\u0431\u043b\u0435\u0439. \u0412 \u0441\u043b\u0443\u0447\u0430\u0435 \u0441 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430\u043c\u0438 \u0432\u0441\u0451 \u0433\u043e\u0440\u0430\u0437\u0434\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0435\u0435.",
+        "author": 2,
+        "pub_date": "2019-07-18T19:05:30.935Z",
+        "slug": "9-prichin-pochemu-android-smartfonyi-vsyo-eschyo-l",
+        "products": [
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?",
+        "text": "- \u041c\u043e\u0436\u043d\u043e \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e \u0432\u0441\u0435\u0433\u043e \u0437\u0430\u043a\u0430\u0447\u0430\u0442\u044c",
+        "author": 3,
+        "pub_date": "2019-07-18T19:02:38.760Z",
+        "slug": "pochemu-vam-nuzhno-64-gb-na-telefone",
+        "products": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "phones.phone",
+    "pk": 1,
+    "fields": {
+        "base_info": 1,
+        "memory": 32,
+        "ddr": 2,
+        "screen_size": "4.9",
+        "screen_width_px": 1334,
+        "screen_height_px": 750
+    }
+},
+{
+    "model": "phones.phone",
+    "pk": 2,
+    "fields": {
+        "base_info": 2,
+        "memory": 32,
+        "ddr": 2,
+        "screen_size": "5.2",
+        "screen_width_px": 1080,
+        "screen_height_px": 1920
+    }
+},
+{
+    "model": "phones.phone",
+    "pk": 3,
+    "fields": {
+        "base_info": 3,
+        "memory": 64,
+        "ddr": 4,
+        "screen_size": "5.0",
+        "screen_width_px": 1080,
+        "screen_height_px": 1920
+    }
+},
+{
+    "model": "phones.phone",
+    "pk": 4,
+    "fields": {
+        "base_info": 4,
+        "memory": 64,
+        "ddr": 4,
+        "screen_size": "6.2",
+        "screen_width_px": 1440,
+        "screen_height_px": 2960
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+        "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+        "slug": "smartphones"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+        "name": "\u041e\u0434\u0435\u0436\u0434\u0430",
+        "slug": "clothes"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "name": "Iphone 7",
+        "price": "35000.00",
+        "brand": "Apple",
+        "picture": "iphone7_o45R9kT.webp",
+        "description": "\u042d\u0422\u041e 7\r\n\r\n\u0412 iPhone 7 \u0432\u0441\u0435 \u0432\u0430\u0436\u043d\u0435\u0439\u0448\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b iPhone \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u044b. \u042d\u0442\u043e \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0438\u0430\u043b\u044c\u043d\u043e \u043d\u043e\u0432\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u0430\u043c\u0435\u0440 \u0434\u043b\u044f \u0444\u043e\u0442\u043e \u0438 \u0432\u0438\u0434\u0435\u043e\u0441\u044a\u0435\u043c\u043a\u0438. \u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043c\u043e\u0449\u043d\u044b\u0439 \u0438 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u043d\u044b\u0439 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440. \u0421\u0442\u0435\u0440\u0435\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438 \u0441 \u0431\u043e\u0433\u0430\u0442\u044b\u043c \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435\u043c. \u0421\u0430\u043c\u044b\u0439 \u044f\u0440\u043a\u0438\u0439 \u0438 \u0440\u0430\u0437\u043d\u043e\u0446\u0432\u0435\u0442\u043d\u044b\u0439 \u0438\u0437 \u0432\u0441\u0435\u0445 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u0432 iPhone. \u0417\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 \u0431\u0440\u044b\u0437\u0433 \u0438 \u0432\u043e\u0434\u044b. \u0418 \u0435\u0433\u043e \u0432\u043d\u0435\u0448\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u0432\u043f\u0435\u0447\u0430\u0442\u043b\u044f\u044e\u0442 \u043d\u0435 \u043c\u0435\u043d\u0435\u0435, \u0447\u0435\u043c \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438. \u0412\u0441\u0435 \u044d\u0442\u043e iPhone 7.\r\n\r\n\u0414\u0412\u0410 \u0420\u0410\u0417\u041c\u0415\u0420\u0410. \u041f\u042f\u0422\u042c \u0426\u0412\u0415\u0422\u041e\u0412\r\n\r\niPhone 7 \u0438 iPhone 7 Plus \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u044b \u0432 \u0434\u0432\u0443\u0445 \u043d\u043e\u0432\u044b\u0445 \u0446\u0432\u0435\u0442\u043e\u0432\u044b\u0445 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430\u0445: \u0431\u043b\u0430\u0433\u043e\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0430\u0442\u043e\u0432\u044b\u0439 \u0447\u0435\u0440\u043d\u044b\u0439 \u0438 \u0440\u043e\u0441\u043a\u043e\u0448\u043d\u044b\u0439 \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0439 \u0433\u043b\u044f\u043d\u0446\u0435\u0432\u044b\u0439 \"\u0447\u0435\u0440\u043d\u044b\u0439 \u043e\u043d\u0438\u043a\u0441\". \u041e\u0431\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u2014 4,7 \u0438 5,5 \u0434\u044e\u0439\u043c\u0430 \u2014 \u0441\u0434\u0435\u043b\u0430\u043d\u044b \u0438\u0437 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e \u043f\u0440\u043e\u0447\u043d\u043e\u0433\u043e \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u044f \u0441\u0435\u0440\u0438\u0438 7000 \u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0442\u0430\u043a\u0436\u0435 \u0432 \u0444\u0438\u0440\u043c\u0435\u043d\u043d\u044b\u0445 \u0446\u0432\u0435\u0442\u0430\u0445 \"\u0440\u043e\u0437\u043e\u0432\u043e\u0435 \u0437\u043e\u043b\u043e\u0442\u043e\", \u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439 \u0438 \u0437\u043e\u043b\u043e\u0442\u043e\u0439.",
+        "category": [
+            1
+        ],
+        "reviews": []
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+        "name": "Nexus 5x",
+        "price": "30000.00",
+        "brand": "LG",
+        "picture": "nexus5x.webp",
+        "description": "\u0422\u041b\u0418\u0427\u041d\u042b\u0415 \u0421\u041d\u0418\u041c\u041a\u0418 \u0414\u0410\u0416\u0415 \u041f\u0420\u0418 \u041f\u041b\u041e\u0425\u041e\u041c \u041e\u0421\u0412\u0415\u0429\u0415\u041d\u0418\u0418\r\n\r\n\u042d\u0442\u043e \u043b\u0443\u0447\u0448\u0430\u044f \u043f\u0430\u043d\u043e\u0440\u0430\u043c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430 \u0438\u0437 \u0432\u0441\u0435\u0445, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043a\u043e\u0433\u0434\u0430-\u043b\u0438\u0431\u043e \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u043b\u0438\u0441\u044c \u043d\u0430 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 Nexus. \u0415\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0440\u0430\u0441\u043a\u0440\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0438 \u043f\u043b\u043e\u0445\u043e\u043c \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0438. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u043d\u044b\u043c \u043f\u0438\u043a\u0441\u0435\u043b\u044f\u043c \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u043c 1,55 \u043c\u043a\u043c \u043a\u0430\u043c\u0435\u0440\u0430 \u0437\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0431\u043e\u043b\u044c\u0448\u0435 \u0441\u0432\u0435\u0442\u0430 \u0438 \u0434\u0435\u043b\u0430\u0435\u0442 \u044f\u0440\u043a\u0438\u0435 \u0447\u0435\u0442\u043a\u0438\u0435 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0434\u0430\u0436\u0435 \u043f\u0440\u0438 \u043d\u043e\u0447\u043d\u043e\u0439 \u0441\u044a\u0435\u043c\u043a\u0435. \u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \"Google \u041a\u0430\u043c\u0435\u0440\u0430\" \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u043e \u0437\u0430\u043f\u0435\u0447\u0430\u0442\u043b\u0435\u0442\u044c \u0432\u0430\u0436\u043d\u044b\u0435 \u0438 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0435 \u043c\u043e\u043c\u0435\u043d\u0442\u044b, \u0430 Google \u0424\u043e\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0432\u0441\u0435 \u0441\u043d\u0438\u043c\u043a\u0438 \u043f\u043e\u0434 \u0440\u0443\u043a\u043e\u0439.\r\n\r\n\u0412\u0421\u0415 \u0424\u041e\u0422\u041e \u041f\u041e\u0414 \u0420\u0423\u041a\u041e\u0419\r\n\r\nGoogle Photos \u2013 \u044d\u0442\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e \u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043c \u0444\u043e\u0442\u043e \u0438 \u0432\u0438\u0434\u0435\u043e \u0438 \u0438\u043c\u0435\u0442\u044c \u043a \u043d\u0438\u043c \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u043f\u043e\u0438\u0441\u043a\u0430 \u043f\u043e \u043b\u0438\u0446\u0430\u043c, \u043c\u0435\u0441\u0442\u0430\u043c \u0438 \u0434\u0440\u0443\u0433\u0438\u043c \u0443\u0434\u043e\u0431\u043d\u044b\u043c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u043c, \u0432\u044b \u0431\u044b\u0441\u0442\u0440\u043e \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0435 \u043d\u0443\u0436\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0438 \u043b\u0435\u0433\u043a\u043e \u0434\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u0438\u043c\u0438.",
+        "category": [
+            1
+        ],
+        "reviews": []
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+        "name": "Pixel 2",
+        "price": "31000.00",
+        "brand": "Google",
+        "picture": "pixel2.webp",
+        "description": "Google Pixel 2 \u2013 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0430\u043f\u043f\u0430\u0440\u0430\u0442 \u0441 \u0442\u043e\u043f\u043e\u0432\u044b\u043c\u0438 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0430\u043c\u0438, \u043d\u0430 \u044d\u0442\u0430\u043b\u043e\u043d\u043d\u043e\u043c Android \u0432 \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u0435\u0432\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u043e\u0439 \u043f\u043e \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0443 IP67 . \u041c\u043e\u0449\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Qualcomm Snapdragon 835, \u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439 \u0438 \u0441\u043e\u0447\u043d\u044b\u0439 5-\u0438 \u0434\u044e\u0439\u043c\u043e\u0432\u044b\u0439 \u044d\u043a\u0440\u0430\u043d AMOLED \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c 1080 x 1920 \u0442\u043e\u0447\u0435\u043a, \u0431\u0430\u0442\u0430\u0440\u0435\u044f \u043d\u0430 2700 \u043c\u0410\u0447 \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438 \u043e\u0442\u0432\u0435\u0447\u0430\u044e\u0442 \u0437\u0430 \u0445\u043e\u0440\u043e\u0448\u0443\u044e \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430. \u041a\u0430\u043c\u0435\u0440\u0430 \u043d\u0430 12.3\u041c\u041f \u0441 \u043b\u0430\u0437\u0435\u0440\u043d\u044b\u043c \u0438 \u0444\u0430\u0437\u043e\u0432\u044b\u043c \u0430\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441\u043e\u043c \u043f\u043e \u043f\u0440\u0430\u0432\u0443 \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u043b\u0443\u0447\u0448\u0438\u0445 \u043d\u0430 \u0440\u044b\u043d\u043a\u0435.",
+        "category": [
+            1
+        ],
+        "reviews": []
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+        "name": "Galaxy 8",
+        "price": "45000.00",
+        "brand": "Samsung",
+        "picture": "samsungs8.webp",
+        "description": "\u0411\u0435\u0437\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d\r\n\r\n\u041c\u044b \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0438\u043b\u0438 \u043a\u0430\u0436\u0434\u0443\u044e \u0434\u0435\u0442\u0430\u043b\u044c \u0440\u0430\u0434\u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u044d\u043a\u0440\u0430\u043d\u0430, \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043e\u0442 \u0440\u0430\u043c\u043e\u043a, \u0447\u0442\u043e\u0431\u044b \u0412\u044b \u0441\u043c\u043e\u0433\u043b\u0438 \u043d\u0430\u0441\u043b\u0430\u0434\u0438\u0442\u044c\u0441\u044f \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u043c \u043f\u043e\u043b\u043d\u043e\u0433\u043e \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u044f. \u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043f\u0440\u043e\u0441\u0442\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u044b \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u043a\u0440\u0430\u0441\u043e\u0447\u043d\u044b\u0445 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0439, \u0448\u0438\u0440\u043e\u043a\u043e\u0444\u043e\u0440\u043c\u0430\u0442\u043d\u044b\u0445 \u0432\u0438\u0434\u0435\u043e \u0438 \u0437\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u044e\u0449\u0438\u0445 \u0438\u0433\u0440.",
+        "category": [
+            1
+        ],
+        "reviews": []
+    }
+},
+{
+    "model": "customer.customer",
+    "pk": 1,
+    "fields": {
+        "user": 4,
+        "cart": [
+            1
+        ]
+    }
+},
+{
+    "model": "customer.customer",
+    "pk": 2,
+    "fields": {
+        "user": 5,
+        "cart": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2019-07-14T20:23:20.318Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Category object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2019-07-14T20:24:02.410Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Product object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2019-07-14T20:26:09.321Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Apple Iphone 7 32 GB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2019-07-16T16:41:16.436Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Nexus 5x",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-07-16T16:43:08.483Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Nexus 5x",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-07-16T16:43:14.738Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "LG Nexus 5x 32 GB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-07-16T16:45:27.732Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Pixel 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-07-16T16:47:08.384Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Google Pixel 2 64 GB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-07-16T16:51:07.186Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Galaxy 8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2019-07-16T16:52:51.651Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Samsung Galaxy 8 64 GB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2019-07-16T16:55:47.785Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "author_1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2019-07-16T16:55:56.238Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2019-07-17T17:48:47.215Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"phones\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2019-07-17T17:49:46.399Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "author_2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2019-07-17T17:49:51.106Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2019-07-17T17:52:47.334Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "clothes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2019-07-17T17:53:30.749Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Authors",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2019-07-17T17:54:16.015Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "author_1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2019-07-17T17:54:30.740Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "author_2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2019-07-17T17:57:02.441Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2019-07-17T17:57:11.705Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "\u041e\u0434\u0435\u0436\u0434\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2019-07-17T18:05:54.764Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Galaxy 8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2019-07-17T18:06:00.783Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Samsung Galaxy 8 64 GB",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2019-07-17T18:07:01.448Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Pixel 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2019-07-17T18:07:11.096Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Nexus 5x",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2019-07-17T18:07:19.248Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Iphone 7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2019-07-17T18:45:02.912Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "\u041e\u0434\u0435\u0436\u0434\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2019-07-17T18:45:17.523Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2019-07-17T19:05:49.167Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2019-07-17T19:05:57.704Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2019-07-17T19:06:03.097Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2019-07-18T19:02:38.764Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e 64 \u0433\u0431 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"products\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2019-07-18T19:05:20.121Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"products\", \"slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2019-07-18T19:05:30.938Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "9 \u043f\u0440\u0438\u0447\u0438\u043d, \u043f\u043e\u0447\u0435\u043c\u0443 Android-\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435 iPhone",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2019-07-20T15:30:10.006Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "customer_1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2019-07-20T15:30:24.755Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Customer object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2019-07-20T15:32:15.474Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "customer_2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2019-07-20T15:32:18.285Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Customer object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2019-07-20T18:28:09.531Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Galaxy 8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2019-07-20T18:29:41.120Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Pixel 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2019-07-20T18:31:54.026Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Nexus 5x",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2019-07-20T18:32:44.911Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Iphone 7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+}
+]
