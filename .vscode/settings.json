@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/mrparalon/.virtualenvs/netology_django/bin/python",
+    "python.pythonPath": "/home/mrparalon/.virtualenvs/net_django/bin/python",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true

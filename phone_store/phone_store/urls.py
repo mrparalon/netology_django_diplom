@@ -18,7 +18,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 import django.contrib.auth.views as auth_views
 from django.urls import path
-from shop.views import show_index, show_product
+from shop.views import show_index, show_product, show_category
 from customer.views import show_user_profile
 from articles.views import show_article
 
@@ -28,7 +28,8 @@ urlpatterns = [
     path('logout', auth_views.LogoutView.as_view()), 
     path('', show_index, name='index'),
     path('articles/<slug:slug>/', show_article),
-    path('category/<str:category>/<int:id>', show_product),
+    path('category/<str:category>/', show_category, name='show_category'),
+    path('category/<str:category>/<int:id>/', show_product, name='show_product'),
     path('accounts/profile/', show_user_profile)
 ]
 

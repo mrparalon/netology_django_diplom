@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.contrib.auth.models import User
+from pytils.translit import slugify
 
 
 class Category(models.Model):
@@ -19,6 +20,11 @@ class Product(models.Model):
     picture = models.ImageField()
     reviews = models.ManyToManyField('Review', related_name='product', blank=True)
     description = models.TextField()
+    slug = models.SlugField()
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.name)
+        super(Product, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.name
