@@ -19,18 +19,20 @@ from django.conf.urls.static import static
 import django.contrib.auth.views as auth_views
 from django.urls import path
 from shop.views import show_index, show_product, show_category
-from customer.views import show_user_profile
+from customer.views import show_user_profile, add_to_cart, make_order
 from articles.views import show_article
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', auth_views.LoginView.as_view()),
-    path('logout', auth_views.LogoutView.as_view()), 
+    path('logout/', auth_views.LogoutView.as_view()), 
+    path('accounts/profile/', show_user_profile),
     path('', show_index, name='index'),
     path('articles/<slug:slug>/', show_article),
     path('category/<str:category>/', show_category, name='show_category'),
     path('category/<str:category>/<int:id>/', show_product, name='show_product'),
-    path('accounts/profile/', show_user_profile)
+    path('add-to-cart/<int:id>', add_to_cart, name='add_to_cart'),
+    path('accounts/profile/make-order', make_order, name='make_order')
 ]
 
 

@@ -2,12 +2,21 @@ from django.contrib import admin
 from customer.models import Customer, Order
 
 
+class ProductsInline(admin.StackedInline):
+    model = Order.products.through
+    fields = ['qty', 'product']
+
+
+class CustomerOrderInline(admin.StackedInline):
+    model = Order
+
+
 class CustomerAdmin(admin.ModelAdmin):
-    pass
+    inlines = [CustomerOrderInline]
 
 
 class OrderAdmin(admin.ModelAdmin):
-    pass
+    inlines = [ProductsInline]
 
 
 admin.site.register(Customer, CustomerAdmin)

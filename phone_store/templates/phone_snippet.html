@@ -3,7 +3,8 @@
     <a href="/category/{{ product.category.first.slug}}/{{ product.id }}">
         <img src="{{ product.picture.url }}" width="180">
     </a>
-    <form>
-        <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+    <form method="post" action="{%  url 'add_to_cart' product.id %}">
+    {% csrf_token %}
+        <input type="submit" class="btn btn-secondary" id="product" value="{{ product.id }}">
     </form>
 </div>
