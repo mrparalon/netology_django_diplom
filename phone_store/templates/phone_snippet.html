@@ -5,6 +5,6 @@
     </a>
     <form method="post" action="{%  url 'add_to_cart' product.id %}">
     {% csrf_token %}
-        <input type="submit" class="btn btn-secondary" id="product" value="{{ product.id }}">
+        <input type="submit" class="btn btn-secondary" id="product" value="Добавить в корзину">
     </form>
 </div>

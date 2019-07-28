@@ -23,7 +23,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$150000$FuUBehyr4HYO$VwywGmJHV2Uf5EkxZyMwvysn01DfKdUFLGDy4kloTX4=",
-        "last_login": "2019-07-25T20:52:10.108Z",
+        "last_login": "2019-07-28T15:01:23.562Z",
         "is_superuser": true,
         "username": "mrparalon",
         "first_name": "",
@@ -85,7 +85,7 @@
     "pk": 4,
     "fields": {
         "password": "pbkdf2_sha256$150000$vv3TX4tMZfHH$PvMgQ18k/ZlrLtmdYuppHf+zdvME8yuzHPU1zlYWiMk=",
-        "last_login": "2019-07-24T20:19:31.172Z",
+        "last_login": "2019-07-28T14:35:26.575Z",
         "is_superuser": false,
         "username": "customer_1",
         "first_name": "\u042f\u043a\u043e\u0432",
@@ -118,10 +118,10 @@
 },
 {
     "model": "sessions.session",
-    "pk": "6sg9uodlfb72taz7n33t2d8j4erhyqjw",
+    "pk": "3gmbak7mnik6ag8gvq97uh8b938fq3ai",
     "fields": {
         "session_data": "NzI4MzM4Y2JiZjUwODEwNzhmODc3MTM0OTJiN2Y5OTc4ZGZjZjA2Mzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3MzNlYjBmNWI0YWNhZGU2NTlkZjc3MWVjY2JjMzZmYTViNTkzOTY0In0=",
-        "expire_date": "2019-08-08T20:52:10.111Z"
+        "expire_date": "2019-08-11T15:01:23.566Z"
     }
 },
 {
@@ -314,6 +314,32 @@
     }
 },
 {
+    "model": "customer.order",
+    "pk": 5,
+    "fields": {
+        "date": "2019-07-28T13:22:51.810Z",
+        "customer": 1
+    }
+},
+{
+    "model": "customer.productcustomercart",
+    "pk": 7,
+    "fields": {
+        "product": 5,
+        "customer": 1,
+        "qty": 1
+    }
+},
+{
+    "model": "customer.productcustomercart",
+    "pk": 8,
+    "fields": {
+        "product": 1,
+        "customer": 1,
+        "qty": 1
+    }
+},
+{
     "model": "customer.productcustomer",
     "pk": 1,
     "fields": {
@@ -383,6 +409,15 @@
         "product": 2,
         "order": 4,
         "qty": 2
+    }
+},
+{
+    "model": "customer.productcustomer",
+    "pk": 9,
+    "fields": {
+        "product": 4,
+        "order": 5,
+        "qty": 1
     }
 }
 ]

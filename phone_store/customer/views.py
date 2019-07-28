@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 from customer.models import Product, Order, ProductCustomerCart, ProductCustomer
 
 
@@ -11,7 +12,7 @@ def get_customer(request):
         customer = user.customer.first()
     return customer
 
-
+@login_required
 def show_user_profile(request):
     total_price = None
     customer = get_customer(request)
@@ -27,7 +28,7 @@ def show_user_profile(request):
                   'user_profile.html',
                   context=context)
 
-
+@login_required
 def add_to_cart(request, id):
     if request.user.is_authenticated:
         customer = get_customer(request)
@@ -41,7 +42,7 @@ def add_to_cart(request, id):
             item.save()
     return redirect('/')
 
-
+@login_required
 def make_order(request):
     customer = get_customer(request)
     cart = customer.cart.all()

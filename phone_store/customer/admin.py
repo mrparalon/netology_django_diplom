@@ -16,7 +16,16 @@ class CustomerAdmin(admin.ModelAdmin):
 
 
 class OrderAdmin(admin.ModelAdmin):
+    def get_products_count(self, obj):
+        counter = 0
+        for product in obj.orders.all():
+            counter += product.qty
+        return counter
+
+
+    sortable_by = 'date'
     inlines = [ProductsInline]
+    list_display = ['__str__', 'customer', 'date', 'get_products_count']
 
 
 admin.site.register(Customer, CustomerAdmin)

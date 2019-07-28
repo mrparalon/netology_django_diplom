@@ -1,0 +1,1 @@
+./manage.py dumpdata  -e auth.permission -e contenttypes -e admin --indent=4 -o test_data.json --natural-foreign

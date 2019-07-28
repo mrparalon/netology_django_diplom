@@ -49,12 +49,12 @@
 
     </ul>
     <a class="btn btn-outline-success my-2 my-sm-0" role="button"
-       href="./cart.html">
+       href="/accounts/profile/">
       Корзина</a>
 
     {% if user.is_authenticated %}
     <a class="btn btn-outline-success my-2 my-sm-0" role="button"
-       href="/accounts/profile/">
+       href="">
       {{ user.get_username }}</a>
     <a class="btn btn-outline-success my-2 my-sm-0" role="button"
        href="/logout/">
