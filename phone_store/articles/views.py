@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from articles.models import Article
+from shop.views import add_menu_data
 
 
 def show_article(request, slug):
@@ -9,7 +10,7 @@ def show_article(request, slug):
     products = article.products.all()
     context = {'article': article,
                'products': products}
-    print(article.title)
+    context = add_menu_data(context)
     return render(request,
                   'article.html',
                   context=context)

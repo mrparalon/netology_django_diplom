@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, HttpResponse
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from customer.models import Product, Order, ProductCustomerCart, ProductCustomer
+from shop.views import add_menu_data
 
 
 def get_customer(request):
@@ -24,6 +25,7 @@ def show_user_profile(request):
     context = {'customer': customer,
                'cart': cart,
                'total_price': total_price}
+    context = add_menu_data(context)
     return render(request,
                   'user_profile.html',
                   context=context)

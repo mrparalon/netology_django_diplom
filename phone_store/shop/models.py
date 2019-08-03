@@ -7,6 +7,8 @@ from pytils.translit import slugify
 class Category(models.Model):
     name = models.CharField(max_length=64)
     slug = models.CharField(max_length=64)
+    parent = models.ForeignKey('Category', on_delete=models.CASCADE, 
+                               related_name='childs', blank=True, null=True)
 
     def __str__(self):
         return self.name
