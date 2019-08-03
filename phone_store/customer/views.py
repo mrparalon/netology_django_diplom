@@ -1,9 +1,30 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
+from django.contrib.auth.backends import ModelBackend
 from django.contrib.auth.decorators import login_required
 from customer.models import Product, Order, ProductCustomerCart, ProductCustomer
 from shop.views import add_menu_data
 
+
+# class EmailBackend(ModelBackend):
+#     def authenticate(self, username=None, password=None, **kwargs):
+#         UserModel = get_user_model()
+#         try:
+#             user = UserModel.objects.get(email=username)
+#         except UserModel.DoesNotExist:
+#             return None
+#         else:
+#             if user.check_password(password):
+#                 return user
+#         return None
+
+#     def get_user(self, user_id):
+#         UserModel = get_user_model()
+#         try:
+#             return UserModel.objects.get(pk=user_id)
+#         except UserModel.DoesNotExist:
+#             return None
 
 def get_customer(request):
     customer = None
