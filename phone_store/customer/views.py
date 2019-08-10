@@ -1,30 +1,23 @@
-from django.shortcuts import render, redirect, HttpResponse
+from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
-from django.contrib.auth import get_user_model
-from django.contrib.auth.backends import ModelBackend
+from django.views.generic.edit import CreateView
+from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
-from customer.models import Product, Order, ProductCustomerCart, ProductCustomer
+from customer.models import Product, Order, ProductCustomerCart,\
+                            ProductCustomer, Customer
 from shop.views import add_menu_data
 
 
-# class EmailBackend(ModelBackend):
-#     def authenticate(self, username=None, password=None, **kwargs):
-#         UserModel = get_user_model()
-#         try:
-#             user = UserModel.objects.get(email=username)
-#         except UserModel.DoesNotExist:
-#             return None
-#         else:
-#             if user.check_password(password):
-#                 return user
-#         return None
+class CustomerFormView(CreateView):
+    form_class = UserCreationForm
+    success_url = '/login/'
+    template_name = 'registration/register.html'
 
-#     def get_user(self, user_id):
-#         UserModel = get_user_model()
-#         try:
-#             return UserModel.objects.get(pk=user_id)
-#         except UserModel.DoesNotExist:
-#             return None
+    def form_valid(self, form):
+        self.object = form.save()
+        Customer.objects.create(user=self.object)
+        return super(CustomerFormView, self).form_valid(form)
+
 
 def get_customer(request):
     customer = None
